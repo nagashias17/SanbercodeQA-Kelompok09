@@ -1,6 +1,6 @@
-describe('Verify Sign Up Successfully', () => {
+describe('Sign Up', () => {
 
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Successfully', () => {
 
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -19,11 +19,7 @@ describe('Verify Sign Up Successfully', () => {
       cy.scrollTo('bottom')
 
     })
-
-  })
-describe('Verify Sign Up Successfully with Enter Button', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Successfully with Enter Button', () => {
 
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -42,11 +38,7 @@ describe('Verify Sign Up Successfully with Enter Button', () => {
       cy.scrollTo('bottom')
 
     })
-
-  })
-describe('Verify Sign Up Failed Same Email', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Same Email', () => {
 
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -65,11 +57,7 @@ describe('Verify Sign Up Failed Same Email', () => {
       cy.scrollTo('bottom')
 
     })
-
-  })
-describe('Verify Sign Up Failed Same Username', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Same Username', () => {
 
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -85,11 +73,7 @@ describe('Verify Sign Up Failed Same Username', () => {
       cy.scrollTo('bottom')
 
     })
-
-  })
-describe('Verify Sign Up Failed Blank Email', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Blank Email', () => {
 
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -108,11 +92,7 @@ describe('Verify Sign Up Failed Blank Email', () => {
       cy.scrollTo('bottom')
 
     })
-
-  })
-describe('Verify Sign Up Failed Blank First Name', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Blank First Name', () => {
       
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -130,11 +110,7 @@ describe('Verify Sign Up Failed Blank First Name', () => {
       cy.scrollTo('top')
 
     })
-
-  })
-describe('Verify Sign Up Failed Blank Surname', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Blank Surname', () => {
       
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -152,11 +128,7 @@ describe('Verify Sign Up Failed Blank Surname', () => {
       cy.scrollTo('top')
 
     })
-
-  })
-describe('Verify Sign Up Failed Blank Mobile', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Blank Mobile', () => {
       
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -175,11 +147,7 @@ describe('Verify Sign Up Failed Blank Mobile', () => {
       cy.scrollTo('bottom')
 
     })
-
-  })
-describe('Verify Sign Up Failed Blank Username', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Blank Username', () => {
       
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -194,11 +162,7 @@ describe('Verify Sign Up Failed Blank Username', () => {
       
 
     })
-
-  })
-describe('Verify Sign Up Failed Blank Password', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Blank Password', () => {
       
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -215,11 +179,7 @@ describe('Verify Sign Up Failed Blank Password', () => {
       cy.get('#submit').click()
 
     })
-
-  })
-describe('Verify Sign Up Failed Blank Confirm Password', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed Blank Confirm Password', () => {
       
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -236,11 +196,7 @@ describe('Verify Sign Up Failed Blank Confirm Password', () => {
       cy.get('#submit').click()
 
     })
-
-  })
-describe('Verify Sign Up Failed All Blank', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed All Blank', () => {
       
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -254,11 +210,7 @@ describe('Verify Sign Up Failed All Blank', () => {
       cy.get('#submit').click()
 
     })
-
-  })
-describe('Verify Sign Up Failed with Minimum Password', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed with Minimum Password', () => {
 
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
@@ -277,11 +229,7 @@ describe('Verify Sign Up Failed with Minimum Password', () => {
       cy.scrollTo('bottom')
 
     })
-
-  })
-  describe('Verify Sign Up Failed with Maximum Password', () => {
-
-    it('Visits the Itera', () => {
+    it('Verify Sign Up Failed with Maximum Password', () => {
 
       cy.visit('https://itera-qa.azurewebsites.net/')
       cy.get('.form-inline > .navbar-nav > :nth-child(1) > .nav-link').click()
