@@ -99,6 +99,8 @@ describe('Edit Costumer Feature', () => {
     cy.get('.table > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(7) > a:nth-child(2)').click()
 
     cy.get('a.btn:nth-child(1)').click()
+    
+    cy.get('#Name').clear()
 
     cy.get('#Company').clear()
 
