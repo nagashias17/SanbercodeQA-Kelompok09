@@ -8,3 +8,5 @@ Team 9 Member :
 4. Costomer (CRUD) : Aulizar & Muhammad Nagashi Iswahyunianto Wibowo
 
 Link Dokumen Test Plan : https://docs.google.com/document/d/15ljFq2NDQi-4bCbX4Oljv5T2vELfIdSu/edit?usp=share_link&ouid=101019393927483666374&rtpof=true&sd=true
+
+Link Dokumen Manual Test Case & Report : https://docs.google.com/spreadsheets/d/1iCs1t97e3CjoLhUP2iOuOeQ05onciB57kOu3MPd_Pok/edit?usp=sharing
