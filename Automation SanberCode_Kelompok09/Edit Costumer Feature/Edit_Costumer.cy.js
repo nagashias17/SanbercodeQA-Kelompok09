@@ -58,7 +58,7 @@ describe('Edit Costumer Feature', () => {
 
     cy.get('input.btn').click()
 
-    cy.get('input.btn').containts('Save')
+    cy.get('input.btn').find('Save')
 
   })
 
@@ -75,7 +75,7 @@ describe('Edit Costumer Feature', () => {
 
     cy.get('#Name').clear()
 
-    cy.get('input.btn').containts('Save')
+    cy.get('input.btn').find('Save')
 
   })
 
@@ -104,7 +104,7 @@ describe('Edit Costumer Feature', () => {
 
     cy.get('input.btn').click()
 
-    cy.get('input.btn').containts('Save')
+    cy.get('input.btn').find('Save')
 
   })
 
@@ -119,7 +119,7 @@ describe('Edit Costumer Feature', () => {
 
     cy.get('.table > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(7) > a:nth-child(1)').click()
 
-    cy.get('input.btn').containts('Save')
+    cy.get('input.btn').click()
 
   })
 
