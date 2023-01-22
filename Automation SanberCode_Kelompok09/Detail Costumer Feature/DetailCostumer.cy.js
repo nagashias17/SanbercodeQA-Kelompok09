@@ -64,7 +64,7 @@ describe('Edit Costumer Feature', () => {
 
     cy.get('input.btn').click()
 
-    cy.get('input.btn').check()
+    cy.get('input.btn').containts('Save')
 
   })
 
@@ -83,7 +83,7 @@ describe('Edit Costumer Feature', () => {
 
     cy.get('#Name').clear()
 
-    cy.get('input.btn').check()
+    cy.get('input.btn').containts('Save')
 
   })
 
@@ -114,7 +114,7 @@ describe('Edit Costumer Feature', () => {
 
     cy.get('input.btn').click()
 
-    cy.get('input.btn').check()
+    cy.get('input.btn').containts('Save')
 
   })
 
